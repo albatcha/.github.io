@@ -1,0 +1,287 @@
+*{
+    box-sizing: border-box;
+}
+
+html{
+    font-size:20px;
+}
+body{
+    margin:0;
+    padding:0;
+    border:0;
+    display:grid;
+    grid-template-columns:100vw;
+    grid-template-rows:repeat(3,auto);
+    grid-template-areas:"header"
+                        "nav"
+                        "One"
+                        "Two"
+                        "Three"
+                        "Four"
+                        ;
+    font-family: 'Quicksand', sans-serif;
+
+}
+
+header{
+    grid-area:header;
+    display:inline-flex;
+    justify-content: center;
+    padding:50px;
+}
+
+h1{
+    font-family: 'Shrikhand', Arial;
+    font-size:2.5rem;
+    color:rgb(36, 36, 36);
+    text-decoration: underline;
+    
+    
+}
+
+h2{
+    font-family: 'Shrikhand', Arial;
+    font-size:2.5rem;
+    color:#29007A;
+    text-decoration: underline;
+    text-decoration-color:rgb(36, 36, 36) ;
+}
+
+.nav{
+    grid-area: nav;
+    justify-self:center;
+    display: flex;
+    justify-content: center;
+    border-top: 2px rgb(100, 100, 100) solid;
+    border-bottom: 2px solid  rgb(100, 100, 100);
+    width:60%;
+
+}
+
+.navbar{
+    width:100%;
+    padding:10px;
+}
+
+a:hover { 
+    color: #4000B8 !important; 
+}
+
+.active{
+    color:#4000B8 !important;
+}
+
+.fas{
+    color:#4000B8;
+    font-size:25px;
+}
+
+ul{
+    width:100%;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+
+a{
+    font-size:1.25rem;
+}
+
+button{
+    border:0 !important;
+   
+}
+
+.FirstPainting{
+    grid-area: One;
+    display:flex;
+    flex-direction: row;
+    align-items: flex-end;
+    justify-content: space-evenly;
+    padding:75px;
+}
+
+#GaR{
+    width:40%;
+}
+
+
+.SecondPainting{
+    grid-area: Two;
+    display:flex;
+    flex-direction: row;
+    align-items: flex-end;
+    justify-content: space-evenly;
+    padding:75px;
+}
+
+#magic{
+    width:30%;
+}
+
+h3{
+    
+    font-weight:400;
+    font-size:1rem;
+}
+
+
+.ThirdPainting{
+    grid-area: Three;
+    display:flex;
+    flex-direction: row;
+    align-items: flex-end;
+    justify-content: space-evenly;
+    padding:75px;
+}
+#untitled{
+    width:50%;
+}
+
+
+h4{
+    font-family: 'Quicksand', sans-serif;
+    font-size:1.5rem;
+
+ 
+}
+
+h5{
+    font-family: 'Bitter', serif;
+    font-size:1.25rem;
+    font-weight:200;
+}
+
+.label{
+    margin-top:10px;
+}
+
+@media only screen and (max-width:1600px) {
+    .FirstPainting{
+        padding:50px;
+    }
+    .SecondPainting{
+        padding:50px;
+    }
+    .ThirdPainting{
+        padding:50px;
+    }
+    h4{
+        font-size:25px;
+    }
+
+    h5{
+        font-family: 'Bitter', serif;
+        font-size:20px;
+        font-weight:200;
+    }
+}
+
+@media only screen and (max-width:1366px) {
+    html{
+        font-size:15px;
+    }
+
+    header{
+        padding:30px;
+    }
+    .FirstPainting{
+        padding:25px;
+    }
+    .SecondPainting{
+        padding:25px;
+    }
+    .ThirdPainting{
+        padding:25px;
+    }
+    h4{
+        font-size:20px;
+    }
+    h5{
+        font-family: 'Bitter', serif;
+        font-size:15px;
+        font-weight:200;
+    }
+}
+
+@media only screen and (max-width:991px) {
+    html{
+        font-size:13px;
+    }
+    body{
+        align-items: center;
+    }
+    header{
+        padding:20px;
+    }
+    .nav{
+        width:400px;
+    }
+    .navbar{
+        width:50px;
+    }
+    #GaR{
+        width:70%;
+    }
+    .FirstPainting{
+        flex-direction: column;
+        width:100%;
+        align-items: center;
+    }
+  
+    #magic{
+        width:60%;
+    }
+    .SecondPainting{
+        flex-direction: column-reverse;
+        width:100%;
+        align-items: center;
+    }
+
+    #untitled{
+        width:90%;
+    }
+
+    .ThirdPainting{
+        flex-direction: column;
+        width:100%;
+        align-items: center;
+    }
+}
+
+@media only screen and (max-width:767px){
+
+    header{
+        padding:15px;
+    }
+    .FirstPainting{
+        flex-direction: column;
+        width:100%;
+        align-items: center;
+    }
+  
+    #GaR{
+        width:400px;
+    }
+    #magic{
+        width:300px;
+    }
+    .SecondPainting{
+        flex-direction: column-reverse;
+        width:100%;
+        align-items: center;
+    }
+
+    #untitled{
+        width:400px;
+    }
+
+    .ThirdPainting{
+        flex-direction: column;
+        width:100%;
+        align-items: center;
+    }
+}
+
+
