@@ -158,7 +158,7 @@ h5{
     background:#dbc9ff ;
     border-radius:5px;
     padding:20px;
-    box-shadow:7px 5px #29007A;
+    box-shadow:7px 5px #513a80;
 }
 
 @media only screen and (max-width:1600px) {
@@ -266,10 +266,10 @@ h5{
     }
   
     #GaR{
-        width:90%;
+        width:100%;
     }
     #magic{
-        width:60%;
+        width:100%;
     }
     .SecondPainting{
         flex-direction: column-reverse;
@@ -278,7 +278,7 @@ h5{
     }
 
     #untitled{
-        width:90%;
+        width:100%;
     }
 
     .ThirdPainting{
