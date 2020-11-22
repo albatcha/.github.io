@@ -98,7 +98,7 @@ button{
 }
 
 .blurb{
-    width:800px;
+    width:700px;
     margin:50px;
 }
 #profile{
@@ -108,6 +108,7 @@ button{
 
 p{
     font-size:1rem;
+    line-height:1.75;
 }
 
 @media only screen and (max-width:1600px) {
@@ -118,16 +119,12 @@ p{
     }
     
     .blurb{
-        width:600px;
+        width:650px;
         margin:50px;
     }
     #profile{
         width:400px;
         margin:50px;
-    }
-    
-    p{
-        font-size:1rem;
     }
     
  
@@ -145,11 +142,11 @@ p{
     }
     
     .blurb{
-        width:400px;
+        width:500px;
         margin:30px;
     }
     #profile{
-        width:400px;
+        width:300px;
         margin:30px;
     }
     
@@ -181,7 +178,7 @@ p{
     }
     
     .blurb{
-        width:400px;
+        width:450px;
         margin:30px;
     }
     #profile{
@@ -189,9 +186,7 @@ p{
         margin:30px;
     }
     
-    p{
-        font-size:1rem;
-    }
+
 
 }
 
@@ -201,7 +196,10 @@ p{
         padding:15px;
     }
 
- 
+    .blurb{
+        width:375px;
+
+    }
 
 
 

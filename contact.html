@@ -5,6 +5,7 @@
 <head>
     <meta charset="UTF-8">
     <title>Tiffany Kangas Art</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
 
@@ -47,6 +48,7 @@
 
     <div class="contact">
         <form id= "contactform" action="#!">
+            <legend>Enter your contact information and message:</legend>
             <div>
                 <label for="firstname">First Name:</label><br />
                 <input type="text" name="firstname" id="firstname">
@@ -56,10 +58,14 @@
                 <input type="text" name="lastname" id="lastname">
             </div>
             <div>
+                <label for="email">Email Address:</label> <br />
+                <input type="email" name="emailaddress" id="emailaddress">
+            </div>
+            <div>
                 <label for="details">Details:</label><br/>
                 <textarea id = "details" rows="6" cols="40"></textarea>
             </div>
-            <button type="submit">Send Inquiry</button>
+            <button type="submit">Send</button>
         </form>
     </div>
 

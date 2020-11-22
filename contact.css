@@ -110,6 +110,11 @@ button{
     padding:20px;
 }
 
+legend{
+    font-size:1.1rem;
+    text-decoration: underline;
+}
+
 
 @media only screen and (max-width:1600px) {
 
