@@ -107,8 +107,12 @@ button{
 }
 
 p{
+    padding:10px;
     font-size:1rem;
     line-height:1.75;
+    background:#dbc9ff;
+    border-radius:5px;
+    box-shadow:5px 5px #000;
 }
 
 @media only screen and (max-width:1600px) {
@@ -197,7 +201,7 @@ p{
     }
 
     .blurb{
-        width:375px;
+        width:90%;
 
     }
 

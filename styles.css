@@ -262,10 +262,10 @@ h5{
     }
   
     #GaR{
-        width:400px;
+        width:90%;
     }
     #magic{
-        width:300px;
+        width:60%;
     }
     .SecondPainting{
         flex-direction: column-reverse;
@@ -274,7 +274,7 @@ h5{
     }
 
     #untitled{
-        width:400px;
+        width:90%;
     }
 
     .ThirdPainting{
