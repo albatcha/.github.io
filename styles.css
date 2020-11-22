@@ -263,6 +263,7 @@ h5{
         flex-direction: column;
         width:100%;
         align-items: center;
+        padding:5px;
     }
   
     #GaR{
@@ -275,6 +276,7 @@ h5{
         flex-direction: column-reverse;
         width:100%;
         align-items: center;
+        padding:5px;
     }
 
     #untitled{
@@ -285,6 +287,7 @@ h5{
         flex-direction: column;
         width:100%;
         align-items: center;
+        padding:5px;
     }
 }
 
