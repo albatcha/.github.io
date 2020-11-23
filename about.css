@@ -32,7 +32,7 @@ h1{
     font-size:2.5rem;
     color:rgb(36, 36, 36);
     text-decoration: underline;
-    
+    text-decoration-color:rgb(36, 36, 36) ;  
     
 }
 
@@ -103,6 +103,7 @@ button{
 }
 #profile{
     width:500px;
+    height:414px;
     margin:50px;
 }
 
@@ -116,6 +117,10 @@ p{
 }
 
 @media only screen and (max-width:1600px) {
+    html{
+        font-size:15px;
+    }
+    
     .About{
 
         padding:40px;
@@ -127,7 +132,8 @@ p{
         margin:50px;
     }
     #profile{
-        width:400px;
+        width:450px;
+        height:374px;
         margin:50px;
     }
     
@@ -135,8 +141,8 @@ p{
 }
 
 @media only screen and (max-width:1366px) {
-    html{
-        font-size:15px;
+    header{
+        padding:30px;
     }
 
     .About{
@@ -149,8 +155,10 @@ p{
         width:500px;
         margin:30px;
     }
+    
     #profile{
-        width:300px;
+        width:350px;
+        height:291px;
         margin:30px;
     }
     
@@ -187,6 +195,7 @@ p{
     }
     #profile{
         width:300px;
+        height:249px;
         margin:30px;
     }
     
@@ -201,7 +210,7 @@ p{
     }
 
     .blurb{
-        width:90%;
+        width:350px;
 
     }
 

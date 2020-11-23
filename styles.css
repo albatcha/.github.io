@@ -11,13 +11,12 @@ body{
     border:0;
     display:grid;
     grid-template-columns:100vw;
-    grid-template-rows:repeat(3,auto);
+    grid-template-rows:repeat(5,auto);
     grid-template-areas:"header"
                         "nav"
                         "One"
                         "Two"
                         "Three"
-                        "Four"
                         ;
     font-family: 'Quicksand', sans-serif;
 
@@ -35,6 +34,7 @@ h1{
     font-size:2.5rem;
     color:rgb(36, 36, 36);
     text-decoration: underline;
+    text-decoration-color:rgb(36, 36, 36) ;
     
     
 }
@@ -100,6 +100,7 @@ button{
     align-items: flex-end;
     justify-content: space-evenly;
     padding:75px;
+    margin-bottom:50px;
 }
 
 #GaR{
@@ -114,6 +115,7 @@ button{
     align-items: flex-end;
     justify-content: space-evenly;
     padding:75px;
+    margin-bottom:50px;
 }
 
 #magic{
@@ -134,16 +136,16 @@ h3{
     align-items: flex-end;
     justify-content: space-evenly;
     padding:75px;
+    margin-bottom:50px;
 }
-#untitled{
+
+#fortune{
     width:50%;
 }
 
 
 h4{
-    font-family: 'Quicksand', sans-serif;
     font-size:1.5rem;
-
  
 }
 
@@ -162,6 +164,10 @@ h5{
 }
 
 @media only screen and (max-width:1600px) {
+    html{
+        font-size:15px;
+    }
+    
     .FirstPainting{
         padding:50px;
     }
@@ -171,21 +177,11 @@ h5{
     .ThirdPainting{
         padding:50px;
     }
-    h4{
-        font-size:25px;
-    }
 
-    h5{
-        font-family: 'Bitter', serif;
-        font-size:20px;
-        font-weight:200;
-    }
 }
 
 @media only screen and (max-width:1366px) {
-    html{
-        font-size:15px;
-    }
+  
 
     header{
         padding:30px;
@@ -199,14 +195,7 @@ h5{
     .ThirdPainting{
         padding:25px;
     }
-    h4{
-        font-size:20px;
-    }
-    h5{
-        font-family: 'Bitter', serif;
-        font-size:15px;
-        font-weight:200;
-    }
+
 }
 
 @media only screen and (max-width:991px) {
@@ -243,7 +232,7 @@ h5{
         align-items: center;
     }
 
-    #untitled{
+    #fortune{
         width:90%;
     }
 
@@ -251,6 +240,11 @@ h5{
         flex-direction: column;
         width:100%;
         align-items: center;
+    }
+
+    .label{
+        background: none;
+        box-shadow:none;
     }
 }
 
@@ -260,9 +254,6 @@ h5{
         padding:15px;
     }
     .FirstPainting{
-        flex-direction: column;
-        width:100%;
-        align-items: center;
         padding:5px;
     }
   
@@ -273,20 +264,14 @@ h5{
         width:100%;
     }
     .SecondPainting{
-        flex-direction: column-reverse;
-        width:100%;
-        align-items: center;
         padding:5px;
     }
 
-    #untitled{
+    #fortune{
         width:100%;
     }
 
     .ThirdPainting{
-        flex-direction: column;
-        width:100%;
-        align-items: center;
         padding:5px;
     }
 }
